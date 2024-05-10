@@ -109,3 +109,34 @@ section .title {
   text-transform: uppercase;
   text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.4);
 }
+
+#home .btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn {
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 4px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+}
+
+.btn-solid {
+  background-color: #6a5acd;
+  color: #fff;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: #6a5acd;
+  border: 1px solid #6a5acd;
+}
+
+.btn-toggler {
+  padding: 10px 12px;
+}
